@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    color: #139afa;
+}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    height: 200px;
+    margin-bottom: 5px;
+    position: relative;
+    margin-top: 10px auto;
+    background-color: skyblue;
+    text-align: center;
+    font-family: "楷体";
+}
+#header img{
+    width: 1000px;
+    height: 200px;
+}
+
+#nav{
+    height: 35px;
+    background-color: rgb(102,110,255);
+    font-size: 25px;
+    font-family: "微软雅黑";
+    color: antiquewhite;
+    letter-spacing:2px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#nav a{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: yellow;
+}
+.dialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+.dialog-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    background-color: #80b9c1;
+}
+  
+.dialog-content h2 {
+    font-family: "楷体";
+    color: black;
+    margin-top: 0;
+}
+  
+.dialog-content button {
+    background-color: green;
+    margin-top: 20px;
+}
+#pho-wall{
+    background-color: skyblue;
+    width: 1000px;
+    height: 1150px;
+}
+.pho_rotate_left{
+    margin-top: 5px;
+    margin-left: 50px;
+    float: left;
+    width: 400px;
+    height: 265px;
+    text-align: center;
+    font-size: 14px;
+}
+.pho_rotate_right{
+    margin-right: 50px;
+    margin-top: 5px;
+    float: right;
+    width: 400px;
+    height: 265px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pho_rotate_left img{
+    width: 395px;
+    height: 260px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.pho_rotate_right img{
+    width: 395px;
+    height: 260px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.pho_rotate_left img:hover{
+    transform: scale(1.5);
+}
+.pho_rotate_right img:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+#footer{
+    background-color: #139afa;
+    height: 50px;
+    width: 1000px;
+    margin-top: 5px;
+}

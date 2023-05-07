@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>剧照欣赏</title>
+</head>
+<link rel="stylesheet" href="css/photowall.css">
+<body>
+    <div id="container">
+        <div id="header">
+            <a href="composite.html"><img src="image/lyhd.png" alt=""></a>
+        </div>
+
+        <div id="nav">
+            <a href="#">背景故事</a>
+            <a href="人物简介.html">人物简介</a>
+            <a href="剧照欣赏.html">剧照欣赏</a>
+            <a href="#" id="open-dialog">上映时间</a>
+            <a href="https://hd.mopiex.com/zh/movie/916224">在线观看</a>
+            <a href="https://movie.douban.com/subject/35371261/comments">观影评价</a>
+        </div>
+        <div id="dialog" class="dialog">
+            <div class="dialog-content">
+              <h2>铃芽户缔的上映日期：2023年3月24日</h2>
+              <button id="close-dialog">close</button>
+            </div>
+          </div>
+          <script>
+            var openBtn = document.getElementById('open-dialog');
+            var dialog = document.getElementById('dialog');
+            var closeBtn = document.getElementById('close-dialog');
+
+            openBtn.addEventListener('click', function() {
+              dialog.style.display = 'block';
+            });
+
+            closeBtn.addEventListener('click', function() {
+              dialog.style.display = 'none';
+            });
+
+          </script>
+        <div id="pho-wall">
+            <div class="pho_rotate_left">
+                <img src="image/phowall/1.jpg" alt="">
+            </div>
+            <div class="pho_rotate_right">
+                <img src="image/phowall/2.jpg" alt="">
+            </div>
+            <div class="pho_rotate_left">
+                <img src="image/phowall/3.jpg" alt="">
+            </div>
+            <div class="pho_rotate_right">
+                <img src="image/phowall/4.jpg" alt="">
+            </div>
+            <div class="pho_rotate_left">
+                <img src="image/phowall/5.jpg" alt="">
+            </div>
+            <div class="pho_rotate_right">
+                <img src="image/phowall/6.jpg" alt="">
+            </div>
+            <div class="pho_rotate_left">
+                <img src="image/phowall/7.jpg" alt="">
+            </div>
+            <div class="pho_rotate_right">
+                <img src="image/phowall/8.jpg" alt="">
+            </div>
+
+
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>    
+</body>
+</html>
